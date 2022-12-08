@@ -1,0 +1,8 @@
+@import "../../_settings/variables.css";
+
+.subheading {
+  color: var(--grey-5);
+  font-size: 14px;
+  margin: 0;
+  font-weight: normal;
+}

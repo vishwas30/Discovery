@@ -1,0 +1,89 @@
+@import "../../_settings/variables.css";
+
+.carousel-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow-btn {
+  margin: auto;
+  height: 50px;
+}
+
+.carousel-section {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 40px 40px;
+}
+
+.content-title {
+  color: var(--grey-1);
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.description {
+  font-size: 18px;
+  color: var(--grey-7);
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.button-div {
+  display: flex;
+  height: 30px;
+  gap: 2%;
+}
+
+.extra-button {
+  background: var(--blue-3);
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 5px 7px;
+  border: none;
+  color: var(--grey-7);
+}
+
+.play-button {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  padding: none;
+  margin-top: 20px;
+}
+
+.circle-play {
+  height: 100px;
+}
+
+.play-text {
+  font-size: 18px;
+  margin: auto 0px;
+  font-weight: normal;
+  color: var(--grey-1);
+}
+
+.carousle-image {
+  border-radius: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+@import "../../_settings/variables.css";
+
+.up-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.left-section {
+  width: 50%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.contact-text {
+  font-size: 14px;
+  padding-left: 10px;
+  color: var(--grey-6);
+  margin: 0;
+  font-weight: normal;
+}
+
+.right-section {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.follow-us {
+  width: fit-content;
+  margin-right: 50px;
+}
+
+.icon-holder {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+
+.followus-icon {
+  border-radius: 5px;
+}
+
+.appicon-holder {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+
+.down-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.bottom-text {
+  font-size: 14px;
+  padding-left: 10px;
+  color: var(--grey-6);
+  margin: 0;
+  font-weight: normal;
+  margin-right: 20px;
+}

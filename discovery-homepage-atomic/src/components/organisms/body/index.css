@@ -1,0 +1,6 @@
+@import "../../_settings/variables.css";
+
+.body-container {
+  background-color: var(--black-2);
+  margin-top: 60px;
+}
